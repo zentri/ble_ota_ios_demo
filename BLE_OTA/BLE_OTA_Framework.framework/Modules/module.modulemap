@@ -1,0 +1,6 @@
+framework module BLE_OTA_Framework {
+  umbrella header "BLE_OTA_Framework.h"
+
+  export *
+  module * { export * }
+}

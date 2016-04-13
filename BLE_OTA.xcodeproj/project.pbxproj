@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFB0B8951CBE6B5A00979FA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB0B8941CBE6B5A00979FA6 /* main.m */; };
+		FFB0B8981CBE6B5A00979FA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB0B8971CBE6B5A00979FA6 /* AppDelegate.m */; };
+		FFB0B89E1CBE6B5A00979FA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFB0B89C1CBE6B5A00979FA6 /* Main.storyboard */; };
+		FFB0B8A01CBE6B5A00979FA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFB0B89F1CBE6B5A00979FA6 /* Assets.xcassets */; };
+		FFB0B8A31CBE6B5A00979FA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFB0B8A11CBE6B5A00979FA6 /* LaunchScreen.storyboard */; };
+		FFB0B8EA1CBE730C00979FA6 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB0B8E51CBE730C00979FA6 /* AboutViewController.m */; };
+		FFB0B8EB1CBE730C00979FA6 /* OTAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB0B8E71CBE730C00979FA6 /* OTAViewController.m */; };
+		FFB0B8EC1CBE730C00979FA6 /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB0B8E91CBE730C00979FA6 /* ScanViewController.m */; };
+		FFB0B8F11CBE731700979FA6 /* BounceAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB0B8EE1CBE731700979FA6 /* BounceAnimationController.m */; };
+		FFB0B8F21CBE731700979FA6 /* RoundRectPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB0B8F01CBE731700979FA6 /* RoundRectPresentationController.m */; };
+		FFB0B8F41CBE736B00979FA6 /* AboutText.html in Resources */ = {isa = PBXBuildFile; fileRef = FFB0B8F31CBE736B00979FA6 /* AboutText.html */; };
+		FFB0B9001CBE7D0100979FA6 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = FFB0B8FF1CBE7D0100979FA6 /* README.md */; };
+		FFB0B9041CBE7F9400979FA6 /* BLE_OTA_Framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FFB0B9011CBE7F8B00979FA6 /* BLE_OTA_Framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FFB0B9051CBE7F9400979FA6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FFB0B9041CBE7F9400979FA6 /* BLE_OTA_Framework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FFB0B8901CBE6B5A00979FA6 /* BLE_OTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLE_OTA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFB0B8941CBE6B5A00979FA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFB0B8961CBE6B5A00979FA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FFB0B8971CBE6B5A00979FA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FFB0B89D1CBE6B5A00979FA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFB0B89F1CBE6B5A00979FA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFB0B8A21CBE6B5A00979FA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFB0B8A41CBE6B5A00979FA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFB0B8E41CBE730C00979FA6 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		FFB0B8E51CBE730C00979FA6 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		FFB0B8E61CBE730C00979FA6 /* OTAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTAViewController.h; sourceTree = "<group>"; };
+		FFB0B8E71CBE730C00979FA6 /* OTAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTAViewController.m; sourceTree = "<group>"; };
+		FFB0B8E81CBE730C00979FA6 /* ScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
+		FFB0B8E91CBE730C00979FA6 /* ScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
+		FFB0B8ED1CBE731700979FA6 /* BounceAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BounceAnimationController.h; sourceTree = "<group>"; };
+		FFB0B8EE1CBE731700979FA6 /* BounceAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BounceAnimationController.m; sourceTree = "<group>"; };
+		FFB0B8EF1CBE731700979FA6 /* RoundRectPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundRectPresentationController.h; sourceTree = "<group>"; };
+		FFB0B8F01CBE731700979FA6 /* RoundRectPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundRectPresentationController.m; sourceTree = "<group>"; };
+		FFB0B8F31CBE736B00979FA6 /* AboutText.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = AboutText.html; sourceTree = "<group>"; };
+		FFB0B8FF1CBE7D0100979FA6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FFB0B9011CBE7F8B00979FA6 /* BLE_OTA_Framework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BLE_OTA_Framework.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFB0B88D1CBE6B5A00979FA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFB0B8871CBE6B5A00979FA6 = {
+			isa = PBXGroup;
+			children = (
+				FFB0B8FF1CBE7D0100979FA6 /* README.md */,
+				FFB0B8921CBE6B5A00979FA6 /* BLE_OTA */,
+				FFB0B8911CBE6B5A00979FA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFB0B8911CBE6B5A00979FA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFB0B8901CBE6B5A00979FA6 /* BLE_OTA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFB0B8921CBE6B5A00979FA6 /* BLE_OTA */ = {
+			isa = PBXGroup;
+			children = (
+				FFB0B8DF1CBE71B800979FA6 /* App Delegate */,
+				FFB0B8E01CBE71C900979FA6 /* View Controllers */,
+				FFB0B8E11CBE71DF00979FA6 /* Presentation Controllers */,
+				FFB0B8E21CBE721600979FA6 /* About Helpers */,
+				FFB0B8E31CBE722A00979FA6 /* UI */,
+				FFB0B89F1CBE6B5A00979FA6 /* Assets.xcassets */,
+				FFB0B8A41CBE6B5A00979FA6 /* Info.plist */,
+				FFB0B8931CBE6B5A00979FA6 /* Supporting Files */,
+			);
+			path = BLE_OTA;
+			sourceTree = "<group>";
+		};
+		FFB0B8931CBE6B5A00979FA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFB0B9011CBE7F8B00979FA6 /* BLE_OTA_Framework.framework */,
+				FFB0B8941CBE6B5A00979FA6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFB0B8DF1CBE71B800979FA6 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				FFB0B8961CBE6B5A00979FA6 /* AppDelegate.h */,
+				FFB0B8971CBE6B5A00979FA6 /* AppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		FFB0B8E01CBE71C900979FA6 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FFB0B8E41CBE730C00979FA6 /* AboutViewController.h */,
+				FFB0B8E51CBE730C00979FA6 /* AboutViewController.m */,
+				FFB0B8E61CBE730C00979FA6 /* OTAViewController.h */,
+				FFB0B8E71CBE730C00979FA6 /* OTAViewController.m */,
+				FFB0B8E81CBE730C00979FA6 /* ScanViewController.h */,
+				FFB0B8E91CBE730C00979FA6 /* ScanViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		FFB0B8E11CBE71DF00979FA6 /* Presentation Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FFB0B8ED1CBE731700979FA6 /* BounceAnimationController.h */,
+				FFB0B8EE1CBE731700979FA6 /* BounceAnimationController.m */,
+				FFB0B8EF1CBE731700979FA6 /* RoundRectPresentationController.h */,
+				FFB0B8F01CBE731700979FA6 /* RoundRectPresentationController.m */,
+			);
+			name = "Presentation Controllers";
+			sourceTree = "<group>";
+		};
+		FFB0B8E21CBE721600979FA6 /* About Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FFB0B8F31CBE736B00979FA6 /* AboutText.html */,
+			);
+			name = "About Helpers";
+			sourceTree = "<group>";
+		};
+		FFB0B8E31CBE722A00979FA6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FFB0B89C1CBE6B5A00979FA6 /* Main.storyboard */,
+				FFB0B8A11CBE6B5A00979FA6 /* LaunchScreen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFB0B88F1CBE6B5A00979FA6 /* BLE_OTA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFB0B8A71CBE6B5A00979FA6 /* Build configuration list for PBXNativeTarget "BLE_OTA" */;
+			buildPhases = (
+				FFB0B88C1CBE6B5A00979FA6 /* Sources */,
+				FFB0B88D1CBE6B5A00979FA6 /* Frameworks */,
+				FFB0B88E1CBE6B5A00979FA6 /* Resources */,
+				FFB0B9051CBE7F9400979FA6 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLE_OTA;
+			productName = BLE_OTA;
+			productReference = FFB0B8901CBE6B5A00979FA6 /* BLE_OTA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFB0B8881CBE6B5A00979FA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Zentri;
+				TargetAttributes = {
+					FFB0B88F1CBE6B5A00979FA6 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = FFB0B88B1CBE6B5A00979FA6 /* Build configuration list for PBXProject "BLE_OTA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFB0B8871CBE6B5A00979FA6;
+			productRefGroup = FFB0B8911CBE6B5A00979FA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFB0B88F1CBE6B5A00979FA6 /* BLE_OTA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFB0B88E1CBE6B5A00979FA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB0B8A31CBE6B5A00979FA6 /* LaunchScreen.storyboard in Resources */,
+				FFB0B8F41CBE736B00979FA6 /* AboutText.html in Resources */,
+				FFB0B8A01CBE6B5A00979FA6 /* Assets.xcassets in Resources */,
+				FFB0B89E1CBE6B5A00979FA6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFB0B88C1CBE6B5A00979FA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB0B8EA1CBE730C00979FA6 /* AboutViewController.m in Sources */,
+				FFB0B8EC1CBE730C00979FA6 /* ScanViewController.m in Sources */,
+				FFB0B8EB1CBE730C00979FA6 /* OTAViewController.m in Sources */,
+				FFB0B8F21CBE731700979FA6 /* RoundRectPresentationController.m in Sources */,
+				FFB0B8981CBE6B5A00979FA6 /* AppDelegate.m in Sources */,
+				FFB0B8F11CBE731700979FA6 /* BounceAnimationController.m in Sources */,
+				FFB0B9001CBE7D0100979FA6 /* README.md in Sources */,
+				FFB0B8951CBE6B5A00979FA6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFB0B89C1CBE6B5A00979FA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFB0B89D1CBE6B5A00979FA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFB0B8A11CBE6B5A00979FA6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFB0B8A21CBE6B5A00979FA6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFB0B8A51CBE6B5A00979FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFB0B8A61CBE6B5A00979FA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFB0B8A81CBE6B5A00979FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/BLE_OTA";
+				INFOPLIST_FILE = BLE_OTA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zentri.BLE-OTA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FFB0B8A91CBE6B5A00979FA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/BLE_OTA";
+				INFOPLIST_FILE = BLE_OTA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zentri.BLE-OTA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFB0B88B1CBE6B5A00979FA6 /* Build configuration list for PBXProject "BLE_OTA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFB0B8A51CBE6B5A00979FA6 /* Debug */,
+				FFB0B8A61CBE6B5A00979FA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFB0B8A71CBE6B5A00979FA6 /* Build configuration list for PBXNativeTarget "BLE_OTA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFB0B8A81CBE6B5A00979FA6 /* Debug */,
+				FFB0B8A91CBE6B5A00979FA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFB0B8881CBE6B5A00979FA6 /* Project object */;
+}
